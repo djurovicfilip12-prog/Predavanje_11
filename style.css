@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.nav_bar {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.nav_bar a {
+  text-decoration: none;
+  color: white;
+}
+.flex_products {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+.flex_products article {
+  background-color: rgb(173, 201, 181);
+}
+.section_articles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+.body {
+  height: 4000px;
+}
+.footer_des {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  justify-content: center;
+}
+.article {
+  background-color: rgb(150, 165, 160);
+  width: 25%;
+  padding: 10px;
+}
+article p {
+  font-size: 0.7rem;
+}
+.header {
+  background-image: url(images/car_part.jpg);
+  height: 50vh;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.artikal_cena {
+  font-weight: bold;
+  color: rgb(194, 42, 42);
+}
+.title {
+  font-weight: bold;
+  text-shadow: 4px 3px 0 #7a7a7a;
+}
