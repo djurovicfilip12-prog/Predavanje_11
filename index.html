@@ -1,64 +1,99 @@
 <!doctype html>
-
 <html>
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Filip Durovic</title>
   </head>
-
-  <body class="body">
-    <nav class="nav_bar">
-      <a href="#">Glava</a>
-      <a href="#">O Nama</a>
-      <a href="#">Kontakt</a>
+  <body>
+    <!--NavBar-->
+    <nav class="navigation">
+      <a href="#">Home</a>
+      <a href="#">Case Studies</a>
+      <a href="#">Testimonials</a>
+      <a href="#">Recent Work</a>
+      <a href="#">Get in Touch</a>
+      <div>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/filip-%C4%91urovi%C4%87-b5650b2a0/"
+        >
+          <i class="fa-brands fa-linkedin" style="color: rgb(46, 106, 159)"></i
+        ></a>
+      </div>
     </nav>
 
-    <header class="header">
-      <h1 class="title">Prodaja Auto Delova</h1>
-    </header>
-
-    <section class="section_articles">
-      <article class="article">
-        <h1>Branik za Megane 2</h1>
-        <p>
-          Branik za megane 2.2000-2005,
-          <span class="artikal_cena">cena 9999din</span>
+    <!--Stranica o Filipu Durovicu -->
+    <section class="filip_section">
+      <div>
+        <h1>Filip Durovic</h1>
+        <p class="text_block_cs">
+          Ambiciozan mladi profesionalac sa završenim studijama Global Business
+          (minor: Finance i Digital Business). Iskustvo sam stekao u Infobip,
+          radeći sa startupima na njihovom razvoju i rastu. Karakterišu me
+          disciplina, jaka radna etika i interesovanje za inovacije i nove
+          tehnologije, sa ciljem izgradnje kompanije koja doprinosi ekonomskom
+          razvoju i otvara nova radna mjesta.
         </p>
-      </article>
-
-      <article class="article">
-        <h1>Branik za Megane 2</h1>
-        <p>Branik za megane 2.2000-2005, cena 9999din</p>
-      </article>
-
-      <article class="article">
-        <h1>Branik za Megane 2</h1>
-        <p>Branik za megane 2.2000-2005, cena 9999din</p>
-      </article>
-
-      <article class="article">
-        <h1>Branik za Megane 2</h1>
-        <p>Branik za megane 2.2000-2005, cena 9999din</p>
-      </article>
-
-      <article class="article">
-        <h1>Branik za Megane 2</h1>
-        <p>Branik za megane 2.2000-2005, cena 9999din</p>
-      </article>
-
-      <article class="article">
-        <h1>Branik za Megane 2</h1>
-        <p>Branik za megane 2.2000-2005, cena 9999din</p>
-      </article>
+        <button class="button_for_start">Let's get started ></button>
+      </div>
+      <div>
+        <img class="my_image" src="Images/Filip_Slika_Develoeprska.jpeg" />
+      </div>
     </section>
 
-    <footer class="footer_des">
-      <p>Copyright &copy; MySite.com</p>
-    </footer>
+    <section class="casestudy_section">
+      <h3 class="flex subtitle_casestudy">Case Studies</h3>
+
+      <div class="flex_casestudy">
+        <div>
+          <span class="span_efekt">Media</span>
+          <h3 class="casestudies_subtitles">Podcast Horizonti Lidestva</h3>
+          <p class="text_block_cs">
+            Podcast Horizonti Liderstva kreiran je od strane studenata, za
+            studente, sa misijom da izgradi novu generaciju lidera kroz priče o
+            inovacijama, tehnologiji i biznisu. Svaka epizoda donosi razgovore
+            sa liderima i vizionarima koji dijele svoja iskustva, izazove i
+            uspjehe.
+          </p>
+          <button class="podcast_button">View Podcast</button>
+        </div>
+
+        <div>
+          <img class="casestudy_images" src="Images/Podcast_Horizonti.jpeg" />
+        </div>
+      </div>
+
+      <div class="bitcoinflex">
+        <div class="flex_casestudy bitcoincasediv">
+          <div>
+            <img class="bitcoin_image" src="Images/bitcoin_club_group.jpg" />
+          </div>
+
+          <div class="bitcoin_div">
+            <span class="bitcoinclub_case_span">Education</span>
+            <h3 class="casestudies_subtitles">RIT Bitcoin Club</h3>
+            <p class="text_block_cs">
+              Osnivač sam i predsjednik Bitcoin Cluba, studentske zajednice koja
+              danas okuplja više od 50 članova sa zajedničkim interesovanjem za
+              Bitcoin i njegove mogućnosti. Kroz klub sam izgradio prostor za
+              učenje, diskusiju i razmjenu ideja o tehnologiji, njenom
+              potencijalu i uticaju na budućnost finansija i poslovanja.
+              Organizovali smo radionice, interaktivne sesije i saradnje sa
+              stručnjacima iz industrije, sa ciljem da približimo koncept
+              decentralizovanih sistema i pokažemo kako se Bitcoin može
+              koristiti za inovacije i razvoj. Kako se približavam završetku
+              studija, klub sam predao mlađim generacijama, sa ciljem da nastavi
+              da raste i razvija se. Posebno mi je drago što sam izgradio
+              zajednicu koja će trajati i nakon mog odlaska sa univerziteta.
+            </p>
+            <button class="button_bitcoin">View Podcast</button>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
